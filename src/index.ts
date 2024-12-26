@@ -12,4 +12,8 @@ export const goodbye = (name: string) => {
     return thing(name).sayGoodbye()
 }
 
+export const isTheOrderOfThePhoenix = (name: string) => {
+    return name === 'Dumbledore'
+}
+
 export default thing
