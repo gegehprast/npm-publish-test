@@ -21,4 +21,8 @@ export const whatIs2Plus2 = () => {
     return add(2, 2)
 }
 
+export const whatIs3Plus3 = () => {
+    return add(3, 3)
+}
+
 export default thing
