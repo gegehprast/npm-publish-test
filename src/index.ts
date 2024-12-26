@@ -1,3 +1,4 @@
+import { add } from './Calculator.js'
 import Thing from './Thing.js'
 
 const thing = (name: string) => {
@@ -14,6 +15,10 @@ export const goodbye = (name: string) => {
 
 export const isTheOrderOfThePhoenix = (name: string) => {
     return name === 'Dumbledore'
+}
+
+export const whatIs2Plus2 = () => {
+    return add(2, 2)
 }
 
 export default thing
