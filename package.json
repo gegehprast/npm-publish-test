@@ -20,7 +20,7 @@
   "scripts": {
     "build": "tsup src/index.ts --dts --format cjs,esm --out-dir dist",
     "lint": "tsc",
-    "release": "pnpm build && pnpm publish -r"
+    "release": "pnpm build && changeset publish"
   },
   "files": [
     "dist/",
