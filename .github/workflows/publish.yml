@@ -22,13 +22,21 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+        
+      - name: pnpm action setup 
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 18
           cache: "pnpm"
-      - run: pnpm install --frozen-lockfile
+
+      - name: Install Dependencies
+        run: pnpm install --frozen-lockfile
+        
       - name: Create Release Pull Request
         id: changesets
         uses: changesets/action@v1
