@@ -5,6 +5,11 @@
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
+  "keywords": [
+    "npm",
+    "publish",
+    "test"
+  ],
   "author": "Gegeh Prast",
   "homepage": "https://github.com/gegehprast/npm-publish-test",
   "repository": {
