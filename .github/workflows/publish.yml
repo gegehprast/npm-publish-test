@@ -8,9 +8,9 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
 
 permissions:
-  actions: write
   contents: write
   packages: read
+  pull-requests: write
 
 jobs:
   build:
