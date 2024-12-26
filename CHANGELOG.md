@@ -1,5 +1,11 @@
 # npm-publish-test
 
+## 0.2.0
+
+### Minor Changes
+
+- a1e96bb: whatIs3Plus3
+
 ## 0.1.0
 
 ### Minor Changes
