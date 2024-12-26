@@ -1,5 +1,5 @@
 {
-  "name": "npm-publish-test",
+  "name": "gegeh-npm-publish-test",
   "version": "0.1.0",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
