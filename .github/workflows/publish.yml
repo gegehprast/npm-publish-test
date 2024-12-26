@@ -9,7 +9,7 @@ concurrency:
 
 permissions:
   actions: write
-  contents: read
+  contents: write
   packages: read
 
 jobs:
