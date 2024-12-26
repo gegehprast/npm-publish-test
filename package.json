@@ -4,6 +4,12 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
+  "author": "Gegeh Prast",
+  "homepage": "https://github.com/gegehprast/npm-publish-test",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gegehprast/npm-publish-test.git"
+  },
   "license": "MIT",
   "scripts": {
     "build": "tsup src/index.ts --dts --format cjs,esm --out-dir dist",
